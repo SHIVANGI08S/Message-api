@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "🔄 Checking out code from GitHub..."
-                git branch: 'main', 'https://github.com/SHIVANGI08S/Message-api'
+                git branch: 'main', 'https://github.com/SHIVANGI08S/Message-api.git'
             }
         }
 
