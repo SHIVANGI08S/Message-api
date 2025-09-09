@@ -18,4 +18,7 @@ public class GreetingController {
     public String print(){
     return "Hi Guest";
 }
+
+
+
 }
